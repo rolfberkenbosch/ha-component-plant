@@ -1,9 +1,9 @@
-# ha-component-plant
+# ha-component-plat
 
 [![GitHub Release][releases-shield]][releases]
 [![GitHub Activity][commits-shield]][commits]
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
-[![License][license-shield]](LICENSE)
+[![License][license-shield]](LICENSE.md)
 
 ![Project Maintenance][maintenance-shield]
 
