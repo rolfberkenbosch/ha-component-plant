@@ -127,18 +127,15 @@ If you want to get the date via a PlantGateway, this is a typical configuration 
 ```yaml
 # Example configuration.yaml entry
 plant:
-  simulated_plant:
+  backroom-plant:
+    plantid: sarracenia purpurea
+    ignore: battery
     sensors:
       moisture: sensor.mqtt_plant_moisture
       battery: sensor.mqtt_plant_battery
       temperature: sensor.mqtt_plant_temperature
       conductivity: sensor.mqtt_plant_conductivity
       brightness: sensor.mqtt_plant_brightness
-    min_moisture: 20
-    max_moisture: 60
-    min_battery: 17
-    min_conductivity: 500
-    min_temperature: 15
 
 sensor:
   - platform: mqtt
