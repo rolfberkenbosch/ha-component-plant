@@ -127,7 +127,7 @@ If you want to get the date via a PlantGateway, this is a typical configuration 
 ```yaml
 # Example configuration.yaml entry
 plant:
-  simulated_plant:
+  backroom-plant:
     plantid: sarracenia purpurea
     ignore: battery
     sensors:
