@@ -30,7 +30,7 @@ plant:
     min_moisture: 20
 ```
 
-{% configuration %}
+```yaml
 entity_id:
   description: Set by you and is used by the integration as the `entity_id`.
   required: true
@@ -107,7 +107,7 @@ entity_id:
       required: false
       default: 3
       type: integer
-{% endconfiguration %}
+```
 
 ## Examples
 ### Using plain MQTT sensor to get the data
@@ -122,7 +122,6 @@ The main sources of the data will usually be a [MiFlora sensor](/components/mifl
 
 If you want to get the date via a PlantGateway, this is a typical configuration for the MQTT sensors:
 
-{% raw %}
 
 ```yaml
 # Example configuration.yaml entry
@@ -164,8 +163,6 @@ sensor:
     value_template: '{{ value_json.brightness | int }}'
     unit_of_measurement: 'Lux'
 ```
-
-{% endraw %}
 
 You have to replace the `state_topic` with the value that you configured in the PlantGateway. It also depends on the global configuration of your MQTT server.
 
