@@ -1,0 +1,13 @@
+{
+  "domain": "plant",
+  "name": "Plant",
+  "documentation": "https://github.com/rolfberkenbosch/ha-component-plant",
+  "requirements": [],
+  "dependencies": [
+    "group",
+    "zone"
+  ],
+  "codeowners": [
+    "@rolfberkenbosch"
+  ]
+}

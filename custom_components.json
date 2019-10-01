@@ -1,0 +1,12 @@
+{
+    "plant": {
+      "version": "0.0.1",
+      "local_location": "/custom_components/plant/__init__.py",
+      "remote_location": "https://raw.githubusercontent.com/rolfberkenbosch/ha-component-plant/master/custom_components/plant/__init__.py",
+      "visit_repo": "https://github.com/rolfberkenbosch/ha-component-plant",
+      "changelog": "https://github.com/rolfberkenbosch/ha-component-plant/releases/latest",
+      "resources": [
+          "https://raw.githubusercontent.com/rolfberkenbosch/ha-component-plant/master/custom_components/plant/__init__.py"
+                ]
+    }
+}
