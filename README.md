@@ -168,3 +168,12 @@ sensor:
 {% endraw %}
 
 You have to replace the `state_topic` with the value that you configured in the PlantGateway. It also depends on the global configuration of your MQTT server.
+
+[commits-shield]: https://img.shields.io/github/commit-activity/y/custom-components/blueprint.svg?style=for-the-badge
+[commits]: https://github.com/rolfberkenbosch/ha-component-plant/commits/master
+[customupdater]: https://github.com/custom-components/custom_updater
+[customupdaterbadge]: https://img.shields.io/badge/custom__updater-true-success.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/rolfberkenbosch/ha-component-plant.svg?style=for-the-badge
+[maintenance-shield]: https://img.shields.io/badge/maintainer-Rolf%20Berkenbosch%20%40rolfberkenbosch-blue.svg?style=for-the-badge
+[releases-shield]: https://img.shields.io/github/release/rolfberkenbosch/ha-component-plant.svg?style=for-the-badge
+[releases]: https://github.com/rolfberkenbosch/ha-component-plant/releases
