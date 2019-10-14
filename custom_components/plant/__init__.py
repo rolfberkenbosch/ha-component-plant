@@ -133,7 +133,7 @@ async def async_setup(hass, config):
         entities.append(entity)
         _LOGGER.info("Plant config %s", plant_config)
         if plant_config['plantid']:
-            jsonResponse = requests.get('https://rolfberkenbosch.github.io/openplantdatabase.io/file.json').json()
+            jsonResponse = requests.get('http://www.openplantdatabase.io/file.json').json()
 
             for dict in jsonResponse:
                 #print (dict)
